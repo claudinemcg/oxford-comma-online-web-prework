@@ -1,4 +1,4 @@
-def oxford_comma(array)
+def oxford_comma(array)                     # e.g.
   if array.length >2                        # yes, no, and maybe
     new_array = []
     new_array << array.pop
