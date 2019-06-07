@@ -4,7 +4,7 @@ def oxford_comma(array)
     new_array << array.pop
     first_part = array.join(', ')
     second_part = ", and #{new_array.join}"
-    puts "#{first_part}#{second_part}"
-  else puts array.join
+    return "#{first_part}#{second_part}"
+  else return array.join
   end
 end
